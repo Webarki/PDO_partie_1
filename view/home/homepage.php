@@ -1,5 +1,5 @@
 <div class="text-center mt-5">
-    <?php foreach ($counts as $countArticles) : ?>
+    <?php foreach ($nb as $countArticles) : ?>
         <h2>Liste des <?= $countArticles->nbArticles ?> articles :</h2>
     <?php endforeach; ?>
 </div>
@@ -17,7 +17,8 @@
         </thead>
         <tbody>
             <?php
-            foreach ($articleList as $article) : ?>
+            foreach ($articleList as $article) :
+            ?>
                 <tr>
                     <td><?= $article->id ?></td>
                     <td><?= $article->title ?></td>

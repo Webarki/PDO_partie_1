@@ -13,9 +13,4 @@ class Database
             die('Erreur : ' . $ex->getMessage());
         }
     }
-
-    public function __destruct()
-    {
-        $this->db = null;
-    }
 }

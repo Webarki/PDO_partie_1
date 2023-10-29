@@ -16,9 +16,9 @@
         <div class="row">
             <div class="col-12">
                 <?php
-                include 'model/datatbase.php';
-                include 'model/article.php';
-                include 'controller/articleController.php';
+                include "model/database.php";
+                include "model/article.php";
+                include "controller/articleController.php";
                 include "view/home/homepage.php";
                 ?>
             </div>
